@@ -34,7 +34,7 @@ Mako==1.3.5
 MarkupSafe==2.1.5
 matplotlib-inline==0.1.7
 mistune==3.0.2
-nb_conda_kernels==2.5.1
+nb_conda_store_kernels
 nbclient==0.10.0
 nbconvert==7.16.4
 nbformat==5.10.4
