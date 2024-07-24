@@ -6,5 +6,5 @@ LABEL image-desc="A docker image for running custom jupyterhub compute environme
 WORKDIR /
 COPY ./requirements.txt ./
 
-SHELL ["/bin/bash", "--login", "c"]
+# SHELL ["/bin/bash", "--login", "c"]
 RUN pip install ./requirements.txt
