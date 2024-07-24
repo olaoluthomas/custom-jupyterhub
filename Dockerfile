@@ -7,4 +7,4 @@ WORKDIR /
 COPY ./requirements.txt ./
 
 # SHELL ["/bin/bash", "--login", "c"]
-RUN pip install ./requirements.txt
+RUN pip install -r ./requirements.txt
