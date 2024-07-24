@@ -1,4 +1,4 @@
-FROM python:3.9.16
+FROM python:3.9-slim-bookworm
 
 LABEL version="0.0.1-alpha"
 LABEL image-desc="A docker image for running custom jupyterhub compute environments"
